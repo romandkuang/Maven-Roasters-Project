@@ -13,3 +13,8 @@ Insights and recommendations are based on the following key business metrics:
 
 ## Data Structure Overview
 <br><img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true">
+
+## Executive Summary
+## Insights Deep Dive
+## Recommendations
+## Clarifying Questions, Assumptions, and Caveats
