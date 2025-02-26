@@ -10,3 +10,6 @@ Insights and recommendations are based on the following key business metrics:
 <Br><b> Revenue Performance:</b> Total revenue generated per store and product category
 <Br><b> Customer Traffic Patterns:</b> Sales trends by time of day and day of the week
 <Br><b>Product Performance:</b> Top-selling and least-selling products in each location 
+
+## Data Structure Overview
+<br>
