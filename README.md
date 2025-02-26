@@ -12,4 +12,4 @@ Insights and recommendations are based on the following key business metrics:
 <Br><b>Product Performance:</b> Top-selling and least-selling products in each location 
 
 ## Data Structure Overview
-<br>
+<br><img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true">
