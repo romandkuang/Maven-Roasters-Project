@@ -5,7 +5,7 @@ Maven Roasters is a specialty coffee shop chain with three locations in New York
 
 This analysis focuses on uncovering purchase behaviors, identifying sales trends, and pinpointing opportunities for revenue growth. Additionally, we aim to improve operational efficiency by optimizing staffing and inventory management. 
 <br><br>By leveraging interactive dashboards and data-driven insights, we will enable smarter business decisions and opportunities that drive sales and streamline daily operations.
-<br>Insights and recommendations are based on the following key business metrics:
+<br><br>Insights and recommendations are based on the following key business metrics:
 ###
 <B>	Transaction Volume:</b> Number of daily sales transactions across all locations
 <Br><b> Revenue Performance:</b> Total revenue generated per store and product category
