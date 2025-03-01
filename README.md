@@ -17,6 +17,14 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 <img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true">
 
 ## Executive Summary
+<br>
+<img src="assets/img/transactions_hour_maven_roasters.png?raw=true">
+<br>
+<img src="assets/img/total_revenue_month_maven.png?raw=true">
+<br>
+<img src="assets/img/table.png.png?raw=true">
+
+
 ## Insights Deep Dive
 ## Recommendations
 ## Clarifying Questions, Assumptions, and Caveats
