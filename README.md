@@ -22,7 +22,7 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 <br>
 <img src="assets/img/total_revenue_month_maven.png?raw=true">
 <br>
-<img src="assets/img/table.png.png?raw=true">
+<img src="[assets/img/table.png.pn](https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true)g?raw=true">
 
 
 ## Insights Deep Dive
