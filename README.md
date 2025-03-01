@@ -18,11 +18,11 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 
 ## Executive Summary
 <br>
-<img src="assets/img/transactions_hour_maven_roasters.png?raw=true">
+<img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_month_maven.png?raw=true">
 <br>
-<img src="assets/img/total_revenue_month_maven.png?raw=true">
+<img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png?raw=true">
 <br>
-<img src="[assets/img/table.png.pn](https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true)g?raw=true">
+<img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true">
 
 
 ## Insights Deep Dive
