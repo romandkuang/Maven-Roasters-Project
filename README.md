@@ -19,13 +19,12 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 ## Executive Summary
 Maven Roaster's sales analysis of 149K transactions over a 6-month period reveals a total revenue of $700K across three locations, with tea, coffee, and espresso being the top three product types at all locations. Peak sales occur in the morning hours (7-10 AM), but February and June show a decline in performance across all locations. Additionally, there is a noticeable decline in sales after 10 AM, presenting an opportunity for operational adjustments. By optimizing staffing levels, introducing new menu items, and launching targeted promotions, Maven Roaster can drive increased customer traffic and sales during slower periods, ultimately enhancing overall performance and boosting revenue.
 <br>
+## Insights Deep Dive
+<br>
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_month_maven.png?raw=true">
 <br>
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png?raw=true">
 <br>
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true">
-
-
-## Insights Deep Dive
 ## Recommendations
 ## Clarifying Questions, Assumptions, and Caveats
