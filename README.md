@@ -27,5 +27,8 @@ Maven Roaster's sales analysis of 149K transactions over a 6-month period reveal
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png?raw=true">
 <br>
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true">
+<br>
+
 ## Recommendations
+
 ## Clarifying Questions, Assumptions, and Caveats
