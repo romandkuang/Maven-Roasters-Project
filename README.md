@@ -27,7 +27,6 @@ Maven Roaster's sales analysis of 149K transactions over a 6-month period reveal
 Among all 3 locations, Hell's Ktichen appears to have the most revenue every month. In February, there's a decline 
 
 
-<img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/percent_change_month.png">
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png?raw=true">
 <br>
 <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/table.png?raw=true">
