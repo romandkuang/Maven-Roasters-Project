@@ -7,10 +7,12 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 <br><br>By leveraging interactive dashboards and data-driven insights, we will enable smarter business decisions and opportunities that drive sales and streamline daily operations.
 <br><br>Insights and recommendations are based on the following key business metrics:
 ### 
-<B>Transaction Volume:</b> Number of daily sales transactions across all locations
-<Br><b> Revenue Performance:</b> Total revenue generated per store and product category
+<B>Total Transaction Volume:</b> Daily sales transactions across all locations
+<Br><b>Monthly Revenue Performance::</b> Total revenue generated per store each month
 <Br><b> Customer Traffic Patterns:</b> Sales trends by time of day and day of the week
-<Br><b>Product Performance:</b> Top-selling and least-selling products in each location 
+<Br><b>Product Performance:</b> Top and bottom performing products by location
+
+
 
 ## Data Structure Overview
 <br>
@@ -19,6 +21,7 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 ## Executive Summary
 Maven Roaster's sales analysis of 149K transactions over a 6-month period reveals a total revenue of $700K across three locations, with tea, coffee, and espresso being the top three product types at all locations. Peak sales occur in the morning hours (7-10 AM), but February show a decline in performance across all locations. Additionally, there is a noticeable decline in sales after 10 AM, presenting an opportunity for operational adjustments. By optimizing staffing levels, introducing new menu items, and launching targeted promotions, Maven Roaster can drive increased customer traffic and sales during slower periods, ultimately enhancing overall performance and boosting revenue.
 <br>
+
 ## Insights Deep Dive
 <Br>
 <B>Transaction Volume:</B>
