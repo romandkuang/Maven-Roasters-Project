@@ -8,8 +8,8 @@ This analysis focuses on uncovering purchase behaviors, identifying sales trends
 <br><br>Insights and recommendations are based on the following key business metrics:
 ### 
 <B>Total Transaction Volume:</b> Daily sales transactions across all locations
-<Br><b>Monthly Revenue Performance::</b> Total revenue generated per store each month
-<Br><b> Customer Traffic Patterns:</b> Sales trends by time of day and day of the week
+<Br><b>Monthly Revenue Performance:</b> Total revenue generated per store each month
+<Br><b> Hourly and Daily Sales Trends:</b> – Identifying peak and low-traffic periods throughout the week.
 <Br><b>Product Performance:</b> Top and bottom performing products by location
 
 
