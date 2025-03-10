@@ -67,6 +67,10 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 - **Slight Increase in June:**  
   - Sales slowed to **5-8%** growth, the only **single-digit** increase in the dataset.  
 
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total%20month%20table.png" width="800">
+</p>
+
 ### **Hourly and Daily Sales Trends**
 - **Double Surge at 7 AM:**  
   - Hell’s Kitchen: **+105.1%**  
