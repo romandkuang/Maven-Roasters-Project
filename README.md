@@ -100,16 +100,16 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Lower Manhattan: **Minimal increases (1% to 2.3%) throughout the week.**  
 
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="400">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="600">
 </p>
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/hour_changes_table.png" width="800">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/hour_changes_table.png" width="900">
 </p>
 
 
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20hells%20kitchen.png" width="550">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/astoria%20day%20of%20week.png" width="550">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20astoria.png" width="550">
 </p>
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20lower%20manhattan.png" width="550">
@@ -125,7 +125,24 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 - **Bottom-performing products:**  
   - Astoria: **Green Bean Coffee (5.7%)**  
   - Lower Manhattan: **Green Bean Coffee (4.6%)**  
-  - Hell’s Kitchen: **Green Tea (4.97%)**  
+  - Hell’s Kitchen: **Green Tea (4.97%)**
+ 
+    
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20hells%20kitchen.png" width="400">
+  <br>
+  Hell's Kitchen Dashboard
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20astoria.png" width="400">
+  <br>
+  Astoria Dashboard
+</p>
+
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20lower%20manhattan.png" width="800">
+  <br>
+  Lower Manhattan Dashboard
+</p>
+
 
 ---
 
