@@ -15,7 +15,11 @@ By leveraging interactive dashboards and data-driven insights, we will enable sm
 - **Product Performance:** Top- and bottom-performing products by location  
 
 ## Data Structure Overview
-![Maven Roasters ERD](https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true" />
+</p>
+
 
 ## Executive Summary
 Maven Roaster's sales analysis, based on **149K transactions over a 6-month period (Jan – June 2023),** reveals a total revenue of **$700K** across three locations.  
@@ -105,7 +109,7 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20hells%20kitchen.png" width="550">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20astoria.png" width="550">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/astoria%20day%20of%20week.png" width="550">
 </p>
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20lower%20manhattan.png" width="550">
