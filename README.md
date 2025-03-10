@@ -128,13 +128,13 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Hell’s Kitchen: **Green Tea (4.97%)**
     
 <p align="center">
-  <span align="center"><b>Bottom 10</b></span>
+  <span align="center"><b>Bottom 10 Product Types</b></span>
   <br>
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/bottom.png" width="1000">
 </p>
 
 <p align="center">
-  <span align="center"><b>Top 10</b></span>
+  <span align="center"><b>Top 10 Product Types</b></span>
   <br>
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top%2010.png" width="1000">
 </p>
