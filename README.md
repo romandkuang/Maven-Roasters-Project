@@ -57,6 +57,7 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 </p>
 
 
+
 ### **Monthly Revenue Performance (MoM Trends)**
 - **February Drop Across Locations:**  
   - Astoria (-8.09%) had the sharpest decline, followed by Hell’s Kitchen (-7.55%) and Lower Manhattan (-4.61%).  
@@ -68,8 +69,12 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Sales slowed to **5-8%** growth, the only **single-digit** increase in the dataset.  
 
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total%20month%20table.png" width="800">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/month_bar_chart.png" width="800">
 </p>
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total%20month%20table.png" width="900">
+</p>
+
 
 ### **Hourly and Daily Sales Trends**
 - **Double Surge at 7 AM:**  
@@ -89,6 +94,23 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Hell’s Kitchen: Growth on **Tuesdays (+5.2%) and Sundays (+7.3%)**  
   - Astoria: Growth on **Tuesdays (+4.8%)**, steady throughout the week.  
   - Lower Manhattan: **Minimal increases (1% to 2.3%) throughout the week.**  
+
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="300">
+</p>
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/hour_changes_table.png" width="800">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20hells%20kitchen.png" width="550">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20astoria.png" width="550">
+</p>
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20lower%20manhattan.png" width="550">
+</p>
+
 
 ### **Product Performance**
 - **Brewed Chai Tea is Astoria’s top-selling product**  
