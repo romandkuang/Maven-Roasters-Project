@@ -22,7 +22,7 @@ Maven Roaster's sales analysis, based on **149K transactions over a 6-month peri
 Revenue is relatively evenly distributed among the three locations:  
 - **Hell's Kitchen**: 33.84% ($236,511)  
 - **Astoria**: 33.23% ($232,243)  
-- **Lower Manhattan**: 32.92% ($230,057)  
+- **Lower Manhattan**: 32.92% ($230,057)
 
 Tea, coffee, and espresso emerge as the top three product categories at all locations, consistently driving the highest sales.  
 The analysis indicates that peak sales occur during **morning hours (7-10 AM)**, with a noticeable decline in performance throughout February across all locations.  
@@ -47,6 +47,15 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Astoria: **$232,243**  
   - Lower Manhattan: **$230,057**  
 - The revenue gap is minimal, showing **consistent performance across locations** and potential for further optimization.
+
+| <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_hellskitchen.png?raw=true" width="900"> | <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_astoria.png?raw=true" width="900"> |
+| --- | --- |
+| <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_lowermanhattan.png?raw=true" width="900"> |
+
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/bar%20chart%20total%20revenue%20maven%20roastesr.png" width="600">
+</p>
+
 
 ### **Monthly Revenue Performance (MoM Trends)**
 - **February Drop Across Locations:**  
