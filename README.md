@@ -15,10 +15,10 @@ By leveraging interactive dashboards and data-driven insights, we will enable sm
 - **Product Performance:** Top- and bottom-performing products by location  
 
 ## Data Structure Overview
-
 <p align="center">
   <img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true" />
 </p>
+
 
 
 ## Executive Summary
@@ -100,7 +100,7 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Lower Manhattan: **Minimal increases (1% to 2.3%) throughout the week.**  
 
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="300">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="400">
 </p>
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/hour_changes_table.png" width="800">
