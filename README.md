@@ -126,22 +126,42 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Astoria: **Green Bean Coffee (5.7%)**  
   - Lower Manhattan: **Green Bean Coffee (4.6%)**  
   - Hell’s Kitchen: **Green Tea (4.97%)**
- 
     
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20hells%20kitchen.png" width="400">
+  <span align="center"><b>Bottom 10</b></span>
   <br>
-  Hell's Kitchen Dashboard
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20astoria.png" width="400">
-  <br>
-  Astoria Dashboard
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/bottom.png" width="1000">
 </p>
 
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/dashboard%20lower%20manhattan.png" width="800">
+  <span align="center"><b>Top 10</b></span>
   <br>
-  Lower Manhattan Dashboard
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top%2010.png" width="1000">
 </p>
+
+
+<p align="center">
+  <span align="center"><b>Hell's Kitchen Top 15 Product Types </b></span>
+  <br>
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_hk.png" width="500">
+</p>
+
+
+
+
+
+<p align="center">
+  <span align="center"><b>Astoria Top 15 Product Types</b></span>
+  <br>
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_astoria.png" width="500">
+</p>
+
+<p align="center">
+  <span align="center"><b>Lower Manhattan Top 15 Product Types</b></span>
+  <br>
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_lower.png" width="500">
+</p>
+
 
 
 ---
