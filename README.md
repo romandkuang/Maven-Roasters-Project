@@ -52,13 +52,28 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   - Lower Manhattan: **$230,057**  
 - The revenue gap is minimal, showing **consistent performance across locations** and potential for further optimization.
 
-| <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_hellskitchen.png?raw=true" width="900"> | <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_astoria.png?raw=true" width="900"> |
-| --- | --- |
-| <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_lowermanhattan.png?raw=true" width="900"> |
 
+<p align="center">
+  <b>Total Revenue by Month</b>
+</p>
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_hellskitchen.png?raw=true" width="1000"></td>
+    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_astoria.png?raw=true" width="1000"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_lowermanhattan.png?raw=true" width="900">
+    </td>
+  </tr>
+</table>
+<p align="center">
+  <b>Total Revenue by Location</b>
+</p>
 <p align="center">
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/bar%20chart%20total%20revenue%20maven%20roastesr.png" width="600">
 </p>
+
 
 
 
@@ -149,16 +164,17 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   <b>Bottom 15 Product Types</b>
 </p>
 
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="500">
-</p>
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="500">
-</p>
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="500">
-</p>
-
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="700"></td>
+    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="700"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="600">
+    </td>
+  </tr>
+</table>
 ## **Recommendations**
 Based on the insights and findings above, we would recommend the stakeholder team to consider the following: 
 ### **1. Target High-Value Products**
