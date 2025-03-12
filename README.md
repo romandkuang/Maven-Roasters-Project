@@ -120,9 +120,9 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 - **Top 3 product types across all locations:**  
   - **Chai Tea, Coffee, and Espresso** → Highlights customer preference for signature beverages.  
 - **Bottom-performing products:**  
-  - Astoria: **Green Bean Coffee (0.07%)**  
+  - Astoria: **Green Bean Coffee (0.08%)**  
   - Lower Manhattan: **Green Bean Coffee (0.07%)**  
-  - Hell’s Kitchen: **Green Tea (0.05%)**
+  - Hell’s Kitchen: **Green Tea (0.09%)**
     
 
 
@@ -145,9 +145,19 @@ By taking these actions, Maven Roaster can enhance overall business performance,
   <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_lower.png" width="500">
 </p>
 
+<p align="center">
+  <b>Bottom 15 Product Types</b>
+</p>
 
-
----
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="700">
+</p>
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="700">
+</p>
+<p align="center">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="700">
+</p>
 
 ## **Recommendations**
 Based on the insights and findings above, we would recommend the stakeholder team to consider the following: 
