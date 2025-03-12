@@ -115,7 +115,7 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 
 ### **Product Performance**
 - **Brewed Chai Tea is Astoria’s top-selling product**  
-  - **6,293 transactions (12.7% of total sales)**  
+  - **6,293 transactions (15.05% of total sales)**  
 - **Espresso is the top seller in Hell’s Kitchen and Lower Manhattan**  
 - **Top 3 product types across all locations:**  
   - **Chai Tea, Coffee, and Espresso** → Highlights customer preference for signature beverages.  
