@@ -175,6 +175,7 @@ By taking these actions, Maven Roaster can enhance overall business performance,
     </td>
   </tr>
 </table>
+
 ## **Recommendations**
 Based on the insights and findings above, we would recommend the stakeholder team to consider the following: 
 ### **1. Target High-Value Products**
