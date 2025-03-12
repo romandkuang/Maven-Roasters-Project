@@ -150,13 +150,13 @@ By taking these actions, Maven Roaster can enhance overall business performance,
 </p>
 
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="600">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="500">
 </p>
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="600">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="500">
 </p>
 <p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="600">
+  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="500">
 </p>
 
 ## **Recommendations**
