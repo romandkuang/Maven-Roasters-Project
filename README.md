@@ -1,52 +1,86 @@
-# Maven Roasters Coffee Shop Sales Dashboard
 
-<table>
+
+<p align="center">
+  <img src="images/banner.png" width="520" alt="Maven Roasters banner">
+</p>
+<hr>
+
+<table width="90%">
   <tr>
-    <td width="70%">
-      <h2>Maven Roasters Sales & Operations Case Study</h2>
-      <p>
-        Excel-based retail analytics project analyzing coffee shop transaction data to uncover revenue trends,
-        peak demand periods, product performance, and store-level opportunities across three New York City locations.
-      </p>
-      <p>
-        The goal was to transform raw sales data into a business-facing dashboard that a franchise owner could use
-        to make better decisions around staffing, promotions, inventory, and product strategy.
-      </p>
+    <td width="60%" valign="top">
+
+<h2>Maven Roasters Sales & Operations Case Study</h2>
+
+<p>
+Excel-based retail analytics project analyzing coffee shop transaction data
+to uncover revenue trends, peak demand periods, product performance,
+and store-level opportunities across three New York City locations.
+</p>
+
+<p>
+The goal was to transform raw sales data into a business-facing dashboard
+that a franchise owner could use to make better decisions around staffing,
+promotions, inventory, and product strategy.
+</p>
+
+</td>
+<td width="40%" valign="top">
+
+<table width="100%">
+  <tr>
+    <td align="center" width="15%">
+      <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="28">
     </td>
-    <td width="30%">
-      <table>
-        <tr>
-          <td><b>Tool</b></td>
-          <td>Microsoft Excel</td>
-        </tr>
-        <tr>
-          <td><b>Dataset</b></td>
-          <td>Coffee Shop Sales.xlsx</td>
-        </tr>
-        <tr>
-          <td><b>Period</b></td>
-          <td>Jan–Jun 2023</td>
-        </tr>
-        <tr>
-          <td><b>Transactions</b></td>
-          <td>149K</td>
-        </tr>
-        <tr>
-          <td><b>Revenue</b></td>
-          <td>$699K</td>
-        </tr>
-      </table>
+    <td width="30%"><b>Tool</b></td>
+    <td>Microsoft Excel</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/ios/50/database.png" width="26">
     </td>
+    <td><b>Dataset</b></td>
+    <td>Coffee Shop Sales.xlsx</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/ios/50/calendar--v1.png" width="26">
+    </td>
+    <td><b>Period</b></td>
+    <td>Jan–Jun 2023</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/ios/50/combo-chart--v1.png" width="26">
+    </td>
+    <td><b>Transactions</b></td>
+    <td>149K</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/ios/50/money-bag.png" width="26">
+    </td>
+    <td><b>Revenue</b></td>
+    <td>$699K</td>
   </tr>
 </table>
 
+</td>
+  </tr>
+</table>
+
+<br>
+
 <p align="center">
-  <img src="https://placehold.co/180x28/F7EFE5/3B2F2F?text=Excel+Dashboard" />
-  <img src="https://placehold.co/180x28/E8D8C3/3B2F2F?text=PivotTables" />
-  <img src="https://placehold.co/180x28/D8BFA3/3B2F2F?text=Sales+Trends" />
-  <img src="https://placehold.co/180x28/C8A27A/FFFFFF?text=Business+Insights" />
+  <img src="https://img.shields.io/badge/Excel%20Dashboard-F7EFE5?style=for-the-badge&logo=microsoftexcel&logoColor=217346&labelColor=F7EFE5&color=F7EFE5" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/PivotTables-F7EFE5?style=for-the-badge&labelColor=F7EFE5&color=F7EFE5" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Sales%20Trends-F7EFE5?style=for-the-badge&labelColor=F7EFE5&color=F7EFE5" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Business%20Insights-F7EFE5?style=for-the-badge&labelColor=F7EFE5&color=F7EFE5" />
 </p>
 
+<hr>
 ---
 
 ## Dashboard Preview
