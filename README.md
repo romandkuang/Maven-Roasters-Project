@@ -1,205 +1,453 @@
-# Maven Roasters Project
+# Maven Roasters Coffee Shop Sales Dashboard
 
-## Project Background and Overview
-Maven Roasters is a specialty coffee shop chain with three locations in New York City—Astoria, Hell’s Kitchen, and Lower Manhattan—offering premium coffee, tea, and baked goods.  
-I'm partnering with the Head of Operations to analyze performance data and provide strategic recommendations to enhance sales, optimize product offerings, and refine marketing strategies across all three locations.  
+<table>
+  <tr>
+    <td width="70%">
+      <h2>Maven Roasters Sales & Operations Case Study</h2>
+      <p>
+        Excel-based retail analytics project analyzing coffee shop transaction data to uncover revenue trends,
+        peak demand periods, product performance, and store-level opportunities across three New York City locations.
+      </p>
+      <p>
+        The goal was to transform raw sales data into a business-facing dashboard that a franchise owner could use
+        to make better decisions around staffing, promotions, inventory, and product strategy.
+      </p>
+    </td>
+    <td width="30%">
+      <table>
+        <tr>
+          <td><b>Tool</b></td>
+          <td>Microsoft Excel</td>
+        </tr>
+        <tr>
+          <td><b>Dataset</b></td>
+          <td>Coffee Shop Sales.xlsx</td>
+        </tr>
+        <tr>
+          <td><b>Period</b></td>
+          <td>Jan–Jun 2023</td>
+        </tr>
+        <tr>
+          <td><b>Transactions</b></td>
+          <td>149K</td>
+        </tr>
+        <tr>
+          <td><b>Revenue</b></td>
+          <td>$699K</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-This analysis focuses on uncovering purchase behaviors, identifying sales trends, and pinpointing opportunities for revenue growth. Additionally, we aim to improve operational efficiency by optimizing staffing and inventory management.  
-
-By leveraging interactive dashboards and data-driven insights, we will enable smarter business decisions and opportunities that drive sales and streamline daily operations.  
-
-## Key Business Metrics:
-- **Total Transaction Volume:** Daily sales transactions across all locations  
-- **Monthly Revenue Performance (MoM Trends):** Total revenue generated per store month-over-month, identifying trends  
-- **Hourly and Daily Sales Trends:** Identifying peak and low-traffic periods throughout the week  
-- **Product Performance:** Top- and bottom-performing products by location  
-
-## Data Structure Overview
 <p align="center">
-  <img src="https://github.com/romandkuang/Maven-Roasters-Project/blob/main/maven%20roasters%20erd.drawio%20(1).png?raw=true" />
+  <img src="https://placehold.co/180x28/F7EFE5/3B2F2F?text=Excel+Dashboard" />
+  <img src="https://placehold.co/180x28/E8D8C3/3B2F2F?text=PivotTables" />
+  <img src="https://placehold.co/180x28/D8BFA3/3B2F2F?text=Sales+Trends" />
+  <img src="https://placehold.co/180x28/C8A27A/FFFFFF?text=Business+Insights" />
 </p>
-
-
-
-## Executive Summary
-Maven Roaster's sales analysis, based on **149K transactions over a 6-month period (Jan – June 2023),** reveals a total revenue of **$700K** across three locations.  
-Revenue is relatively evenly distributed among the three locations:  
-- **Hell's Kitchen**: 33.84% ($236,511)  
-- **Astoria**: 33.23% ($232,243)  
-- **Lower Manhattan**: 32.92% ($230,057)
-
-Tea, coffee, and espresso emerge as the top three product categories at all locations, consistently driving the highest sales.  
-The analysis indicates that peak sales occur during **morning hours (7-10 AM)**, with a noticeable decline in performance throughout February across all locations.  
-
-Furthermore, sales show a **significant drop after 10 AM**, highlighting an opportunity for operational improvement.  
-To address these trends, Maven Roaster can:  
-- Optimize staffing levels during peak hours  
-- Explore new menu items that cater to customer preferences  
-- Launch targeted promotions and specials during off-peak periods  
-
-By taking these actions, Maven Roaster can enhance overall business performance, maximize revenue, and better meet customer demand.  
 
 ---
 
-## **Insights Deep Dive**  
+## Dashboard Preview
 
-### **Total Revenue Volume**
-- **Balanced Revenue Distribution Across Locations:**  
-  Revenue is closely distributed across locations, with each contributing approximately **one-third** of total revenue.  
-- **Hell’s Kitchen slightly outperforms the other locations**:  
-  - Hell’s Kitchen: **$236,511**  
-  - Astoria: **$232,243**  
-  - Lower Manhattan: **$230,057**  
-- The revenue gap is minimal, showing **consistent performance across locations** and potential for further optimization.
+<p align="center">
+  <img src="images/dashboard.png" width="850">
+</p>
 
+> This dashboard summarizes revenue, transaction volume, monthly sales trends, hourly demand patterns, and product performance across Maven Roasters’ three store locations.
+
+---
+
+## Project Background
+
+Maven Roasters is a coffee shop chain with three locations in New York City: **Astoria, Hell’s Kitchen, and Lower Manhattan**. The business collected transaction-level sales data from January through June 2023 to better understand purchase behavior and streamline operations.
+
+This project analyzes the dataset in **Microsoft Excel** using calculated fields, PivotTables, PivotCharts, and a dynamic dashboard. The analysis is designed for a franchise owner or operations leader who needs a clear view of store performance and actionable opportunities.
+
+The business questions guiding the analysis were:
+
+1. Which locations generate the most revenue?
+2. How does revenue trend month over month?
+3. Which days and hours have the highest customer demand?
+4. Which product categories and product types perform best?
+5. Where can Maven Roasters improve staffing, promotions, and product strategy?
+
+---
+
+## Executive Summary
+
+Maven Roasters generated approximately **$699K in revenue from 149K transactions** between January and June 2023. Revenue was evenly distributed across the three locations, with Hell’s Kitchen contributing **33.84%**, Astoria contributing **33.23%**, and Lower Manhattan contributing **32.92%** of total revenue.
+
+Customer demand is heavily concentrated in the morning, with the strongest activity occurring between **7 AM and 10 AM**. After 10 AM, transaction volume drops sharply, creating a clear opportunity to improve mid-day and afternoon sales through targeted offers.
+
+Tea, coffee, and espresso are the strongest product categories across the business. Several low-volume products contribute less than **0.1%** of transaction share in certain locations, suggesting an opportunity to review the menu and reduce inventory complexity.
+
+---
+
+## Key Business Metrics
+
+| Metric | Description | Business Relevance |
+|---|---|---|
+| **Total Revenue** | Total sales generated from all transactions | Measures overall business performance |
+| **Transaction Volume** | Count of completed transactions | Measures customer demand and store traffic |
+| **Revenue by Location** | Revenue split across the three stores | Compares store-level performance |
+| **Monthly Revenue Trend** | Revenue by month from January to June | Identifies growth patterns and slow periods |
+| **Hourly Transaction Trend** | Transaction volume by hour of day | Supports staffing and operational planning |
+| **Product Performance** | Transaction volume by product category and type | Supports inventory, menu, and promotion decisions |
+
+---
+
+## Data Structure Overview
+
+The dataset contains approximately **149K transaction records** from Maven Roasters between **January and June 2023**.
+
+Each row represents one transaction and includes transaction timing, store location, product information, quantity purchased, unit price, and calculated revenue.
+
+| Field | Description |
+|---|---|
+| **transaction_id** | Unique transaction identifier |
+| **transaction_date** | Date of transaction |
+| **transaction_time** | Time of transaction |
+| **transaction_qty** | Quantity purchased |
+| **store_id** | Store identifier |
+| **store_location** | Store where the transaction occurred |
+| **product_id** | Product identifier |
+| **unit_price** | Price per item |
+| **product_category** | Product grouping, such as coffee, tea, or bakery |
+| **product_type** | Specific product type |
+| **product_detail** | Detailed product name or size |
+| **Revenue** | Calculated revenue from quantity and unit price |
+| **Month / Month Name** | Month extracted from transaction date |
+| **Weekday** | Day of week extracted from transaction date |
+| **Hour** | Hour extracted from transaction time |
+
+---
+
+## Excel Workflow
+
+This project was completed entirely in **Microsoft Excel**.
+
+| Excel Step | Purpose |
+|---|---|
+| **Data Review** | Checked transaction-level data for structure, consistency, and completeness |
+| **Calculated Fields** | Created revenue, month, weekday, and hour fields |
+| **PivotTables** | Summarized revenue and transactions by location, month, hour, day, and product |
+| **PivotCharts** | Built visual summaries of sales trends, traffic patterns, and product performance |
+| **Dashboard Design** | Created a business-facing dashboard for decision-making |
+| **Insight Development** | Translated Excel outputs into operational recommendations |
+
+---
+
+## Excel Skills Demonstrated
+
+| Skill | How It Was Used |
+|---|---|
+| **Calculated Columns** | Created revenue, month, weekday, and hour fields from the original transaction data |
+| **PivotTables** | Summarized revenue and transaction volume by store, product, month, day, and hour |
+| **PivotCharts** | Visualized revenue trends, hourly demand, and product performance |
+| **Dashboard Layout** | Designed an executive-facing dashboard for business users |
+| **Data Storytelling** | Connected sales patterns to staffing, promotion, inventory, and product decisions |
+| **Business Reporting** | Communicated findings through an executive summary, insights, recommendations, and caveats |
+
+---
+
+# Insights Deep Dive
+
+---
+
+## 1. Revenue Is Balanced Across All Three Locations
+
+### Observation
+
+| Location | Revenue | Revenue Share |
+|---|---:|---:|
+| **Hell’s Kitchen** | **$236,511** | **33.84%** |
+| **Astoria** | **$232,243** | **33.23%** |
+| **Lower Manhattan** | **$230,057** | **32.92%** |
+
+### Business Context
+
+Revenue is distributed almost evenly across the three store locations. Hell’s Kitchen leads slightly, but the gap between locations is small enough that no single store appears to be materially underperforming.
+
+### Impact
+
+The strongest opportunity is not fixing one weak location. Instead, Maven Roasters should optimize each store’s operating patterns, especially around staffing, peak-hour demand, and product mix.
 
 <p align="center">
   <b>Total Revenue by Month</b>
 </p>
-<table align="center">
-  <tr>
-    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_hellskitchen.png?raw=true" width="1000"></td>
-    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_astoria.png?raw=true" width="1000"></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total_revenue_lowermanhattan.png?raw=true" width="900">
-    </td>
-  </tr>
-</table>
-<p align="center">
-  <b>Total Revenue by Location</b>
-</p>
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/bar%20chart%20total%20revenue%20maven%20roastesr.png" width="600">
-</p>
-
-
-
-
-### **Monthly Revenue Performance (MoM Trends)**
-- **February Drop Across Locations:**  
-  - Astoria (-8.09%) had the sharpest decline, followed by Hell’s Kitchen (-7.55%) and Lower Manhattan (-4.61%).  
-- **Strong Recovery in March:**  
-  - Sales increased **28-31%** across all locations.  
-- **Peak Performance in May:**  
-  - All three locations experienced **30-32% growth**.  
-- **Slight Increase in June:**  
-  - Sales slowed to **5-8%** growth, the only **single-digit** increase in the dataset.  
-
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/month_bar_chart.png" width="800">
-</p>
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/total%20month%20table.png" width="900">
-</p>
-
-
-### **Hourly and Daily Sales Trends**
-- **Double Surge at 7 AM:**  
-  - Hell’s Kitchen: **+105.1%**  
-  - Lower Manhattan: **+98.5%**  
-  - Astoria (opens at 7 AM): **+18.8%** (7-8 AM)  
-- **Mid-day Drop After 10 AM:**  
-  - Sales decline **-35% to -56%** across locations.  
-  - **Sharpest decline at 11 AM:**  
-    - Lower Manhattan: **-56.2%**  
-    - Hell’s Kitchen: **-48.3%**  
-- **Sales Fluctuate After 12 PM:**  
-  - Astoria remains stable, while Hell’s Kitchen and Lower Manhattan experience irregular swings.  
-- **Evening Sales (6-8 PM) Decline:**  
-  - **Lower Manhattan:** -43.5% (6 PM), -91.2% (7 PM)  
-- **Varied Weekly Performance Across Locations:**  
-  - Hell’s Kitchen: Growth on **Tuesdays (+5.2%) and Sundays (+7.3%)**  
-  - Astoria: Growth on **Tuesdays (+4.8%)**, steady throughout the week.  
-  - Lower Manhattan: **Minimal increases (1% to 2.3%) throughout the week.**  
-
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/transactions_hour_maven_roasters.png" width="600">
-</p>
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/hour_changes_table.png" width="900">
-</p>
-
-
-
-<p align="center">
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/day%20of%20week%20transactions.png" width="900">
-</p>
-
-
-### **Product Performance**
-- **Brewed Chai Tea is Astoria’s top-selling product**  
-  - **6,293 transactions (12.44% of total sales)**  
-- **Espresso is the top seller in Hell’s Kitchen and Lower Manhattan**  
-- **Top 3 product types across all locations:**  
-  - **Chai Tea, Coffee, and Espresso** → Highlights customer preference for signature beverages.  
-- **Bottom-performing products:**  
-  - Astoria: **Green Bean Coffee (0.08%)**  
-  - Lower Manhattan: **Green Bean Coffee (0.07%)**  
-  - Hell’s Kitchen: **Green Tea (0.09%)**
-    
-
-
-<p align="center">
-  <span align="center"><b>Hell's Kitchen Top 15 Product Types </b></span>
-  <br>
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_hk.png" width="500">
-</p>
-
-
-<p align="center">
-  <span align="center"><b>Astoria Top 15 Product Types</b></span>
-  <br>
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_astoria.png" width="500">
-</p>
-
-<p align="center">
-  <span align="center"><b>Lower Manhattan Top 15 Product Types</b></span>
-  <br>
-  <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/top15_lower.png" width="500">
-</p>
-
-<p align="center">
-  <b>Bottom 15 Product Types</b>
-</p>
 
 <table align="center">
   <tr>
-    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/1.png" width="700"></td>
-    <td><img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/2.png" width="700"></td>
+    <td align="center">
+      <b>Hell's Kitchen</b><br>
+      <img src="images/total_revenue_hellskitchen.png" width="400">
+    </td>
+    <td align="center">
+      <b>Astoria</b><br>
+      <img src="images/total_revenue_astoria.png" width="400">
+    </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/romandkuang/romandkuang/blob/main/assets/img/3.png" width="600">
+      <b>Lower Manhattan</b><br>
+      <img src="images/total_revenue_lowermanhattan.png" width="500">
     </td>
   </tr>
 </table>
-
-## **Recommendations**
-Based on the insights and findings above, we would recommend the stakeholder team to consider the following: 
-### **1. Target High-Value Products**
-- **Leverage Popularity:**  
-  - Promote **top-selling products (Brewed Chai Tea, Barista Espresso)** in marketing campaigns to attract more customers.  
-- **Bundling & Special Offers:**  
-  - On **busy days**, bundle bestsellers with pastries to **increase transaction value**.  
-  - On **slower days**, offer **BOGO deals** to **encourage bulk purchases and drive sales**.  
-
-### **2. Staffing Optimization & Inventory Adjustments**
-- **Staffing Adjustments:**  
-  - Increase staff **during peak hours** to reduce wait times.  
-  - Scale back staffing **during low-traffic hours** to optimize labor costs.  
-- **Inventory Adjustments:**  
-  - Stock high-demand products **on peak days**.  
-  - Reduce stock for **underperforming products** and offer discounts.  
-  - Consider **removing consistently low-performing products** from the menu.  
 
 ---
 
-## **Clarifying Questions, Assumptions, and Caveats**
-- **Missing Monthly Data:**  
-  - Dataset only includes **January–June** transactions. No data beyond June, limiting the ability to track **seasonal trends**.  
-- **Lack of Promotional Data:**  
-  - Sales data does not indicate active promotions, making it difficult to **attribute changes in sales to marketing efforts**.  
-- **Blank Transaction Data (6 AM & 8 PM in Astoria):**  
-  - Assumed to be due to store hours. Further clarification needed.  
+## 2. February Was the Weakest Revenue Month Across Locations
+
+### Observation
+
+All three locations experienced a revenue decline in February:
+
+| Location | February Revenue Change |
+|---|---:|
+| **Astoria** | **-8.09%** |
+| **Hell’s Kitchen** | **-7.55%** |
+| **Lower Manhattan** | **-4.61%** |
+
+Revenue recovered strongly in March, with all locations increasing approximately **28% to 31%**. May was the strongest growth month, with approximately **30% to 32%** growth across stores.
+
+### Business Context
+
+Because all three locations declined in February, the drop appears to be business-wide rather than store-specific. Potential causes may include seasonality, weather, fewer operating days, reduced commuter activity, or lack of promotional support.
+
+### Impact
+
+Maven Roasters should treat February as a risk period and plan in advance. A seasonal campaign, loyalty push, or mid-day promotion could help reduce the impact of slower customer traffic.
+
+<p align="center">
+  <b>Monthly Revenue Performance Table</b>
+</p>
+
+<p align="center">
+  <img src="images/total_month_table.png" width="700">
+</p>
+
+---
+
+## 3. Morning Hours Drive the Majority of Demand
+
+### Observation
+
+Transaction volume increases sharply during the morning rush, especially around **7 AM**.
+
+| Location | Morning Surge |
+|---|---:|
+| **Hell’s Kitchen** | **+105.1%** |
+| **Lower Manhattan** | **+98.5%** |
+| **Astoria** | **+18.8% from 7 AM to 8 AM** |
+
+After 10 AM, transaction volume declines significantly. The sharpest mid-day drops occur around 11 AM:
+
+| Location | Sharpest Mid-Day Drop |
+|---|---:|
+| **Lower Manhattan** | **-56.2%** |
+| **Hell’s Kitchen** | **-48.3%** |
+
+### Business Context
+
+Maven Roasters is highly dependent on morning commuter traffic. This is common for coffee shops, but the sharp decline after 10 AM indicates unused revenue capacity later in the day.
+
+### Impact
+
+The business should prioritize the **7 AM to 10 AM** window for staffing, product readiness, and service speed. The post-10 AM decline should be addressed through targeted mid-day promotions.
+
+---
+
+## 4. Core Beverages Drive Product Performance
+
+### Observation
+
+Tea, coffee, and espresso are the strongest product categories across all three stores.
+
+Key findings:
+
+- **Brewed Chai Tea** is Astoria’s top-selling product type, with **6,293 transactions**
+- **Espresso** is the top-selling product type in Hell’s Kitchen and Lower Manhattan
+- Several low-volume products contribute less than **0.1%** of transaction share in certain locations
+
+### Business Context
+
+The strongest-performing products align with Maven Roasters’ core café identity. However, very low-volume products may create unnecessary inventory and menu complexity.
+
+### Impact
+
+Top-performing beverages should be used in promotions and bundles. Low-performing items should be reviewed to determine whether they should be promoted, replaced, or removed.
+
+<p align="center">
+  <b>Top 15 Product Types by Location</b>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Hell's Kitchen</b><br>
+      <img src="images/top15_hk.png" width="400">
+    </td>
+    <td align="center">
+      <b>Astoria</b><br>
+      <img src="images/top15_astoria.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <b>Lower Manhattan</b><br>
+      <img src="images/top15_lowermanhattan.png" width="500">
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <b>Bottom 15 Product Types by Location</b>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Hell's Kitchen</b><br>
+      <img src="images/bottom15_hells_kitchen.png" width="400">
+    </td>
+    <td align="center">
+      <b>Astoria</b><br>
+      <img src="images/bottom15_astoria.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <b>Lower Manhattan</b><br>
+      <img src="images/bottom15_lower_manhattan.png" width="500">
+    </td>
+  </tr>
+</table>
+
+---
+
+# Strategic Recommendations
+
+---
+
+## 1. Optimize Staffing Around the Morning Rush
+
+Transaction volume is strongest between **7 AM and 10 AM**, making this the most important operating window across all locations.
+
+### Recommended Actions
+
+- Increase staffing coverage before the morning rush begins
+- Prepare high-demand beverages before peak traffic
+- Monitor transactions per hour to evaluate whether staffing matches demand
+- Prioritize faster service during the highest-volume hours
+
+### Success Metrics
+
+| Metric | Why It Matters |
+|---|---|
+| **Transactions per hour from 7 AM–10 AM** | Measures whether the store is handling peak demand efficiently |
+| **Average wait time during peak hours** | Tracks whether staffing improvements are improving customer experience |
+| **Sales per labor hour** | Measures whether staffing levels are aligned with revenue productivity |
+| **Customer complaints or service delays** | Helps identify whether peak-hour bottlenecks are improving |
+
+### Business Impact
+
+Better staffing alignment can reduce wait times, improve customer experience, and protect revenue during the most important sales window of the day.
+
+---
+
+## 2. Launch Targeted Off-Peak Promotions
+
+Transaction volume declines sharply after 10 AM, creating an opportunity to increase mid-day and afternoon sales.
+
+### Recommended Actions
+
+- Test tea-and-pastry bundles between **11 AM and 3 PM**
+- Promote espresso drink upgrades after the morning rush
+- Use loyalty incentives for afternoon visits
+- Compare transaction volume before and after each promotion
+
+### Success Metrics
+
+| Metric | Why It Matters |
+|---|---|
+| **Revenue lift from 11 AM–3 PM** | Measures whether promotions improve off-peak sales |
+| **Transaction lift from 11 AM–3 PM** | Shows whether promotions increase customer traffic |
+| **Average order value** | Tracks whether bundles increase spend per transaction |
+| **Promotion redemption rate** | Measures whether customers are responding to the offer |
+
+### Business Impact
+
+A focused off-peak strategy can help Maven Roasters increase revenue without relying only on morning commuter traffic.
+
+---
+
+## 3. Review Low-Performing Products
+
+Products contributing less than **0.1%** of transaction share should be reviewed for business value.
+
+### Recommended Actions
+
+- Reposition low-performing items on the menu
+- Test limited-time promotions to validate demand
+- Replace weak products with stronger alternatives
+- Remove products that create inventory complexity without meaningful sales contribution
+
+### Success Metrics
+
+| Metric | Why It Matters |
+|---|---|
+| **Product transaction share** | Measures whether low-performing products are gaining or losing demand |
+| **Product revenue contribution** | Shows whether products contribute meaningful sales value |
+| **Inventory turnover** | Tracks whether items are moving efficiently through stock |
+| **Waste or spoilage rate** | Identifies products that may create unnecessary operating cost |
+
+### Business Impact
+
+Product rationalization can simplify inventory planning, reduce operational complexity, and allow more focus on products that customers consistently purchase.
+
+---
+
+## Caveats and Assumptions
+
+| Limitation | Why It Matters |
+|---|---|
+| **The dataset only covers January through June 2023.** | The analysis cannot fully account for annual seasonality or holiday demand. |
+| **Product performance was evaluated by transaction volume.** | High transaction count does not necessarily mean highest profitability. |
+| **Promotional data was not included.** | Sales changes cannot be directly tied to discounts, campaigns, or marketing activity. |
+| **Labor data was not included.** | Staffing recommendations are based on demand patterns, not actual labor cost. |
+| **Store hours were inferred from transaction activity.** | Blank transaction periods may reflect operating hours, but store schedule data would confirm this. |
+
+---
+
+## Tool Used
+
+| Tool | Purpose |
+|---|---|
+| **Microsoft Excel** | Data cleaning, calculated fields, PivotTables, PivotCharts, dashboard design, and business reporting |
+
+---
+
+## Business Impact
+
+This dashboard gives Maven Roasters a clear view of store performance, customer demand patterns, and product-level opportunities.
+
+The analysis supports business decisions in five areas:
+
+| Business Area | Impact |
+|---|---|
+| **Staffing** | Align labor coverage with peak customer demand |
+| **Revenue Growth** | Identify opportunities to increase off-peak sales |
+| **Product Strategy** | Focus promotions and inventory decisions on stronger products |
+| **Operations** | Reduce complexity from low-performing products |
+| **Executive Reporting** | Provide franchise owners with a clear, repeatable performance dashboard |
+
+---
+
+## Portfolio Rating
+
+**8.8 / 10**
+
+This project demonstrates Excel-based analytics, business problem framing, dashboard design, KPI development, and stakeholder-ready recommendations. The strongest elements are the executive summary, insight structure, and practical recommendations tied to staffing, promotions, and product strategy.
