@@ -124,6 +124,18 @@ Each row represents one transaction and includes transaction timing, store locat
 
 ---
 
+## Calculated Fields Created
+
+| Field | Calculation Logic | Business Purpose |
+|---|---|---|
+| **Revenue** | `transaction_qty * unit_price` | Measures sales generated from each transaction |
+| **Month** | Extracted from `transaction_date` | Supports monthly revenue trend analysis |
+| **Month Name** | Extracted from `transaction_date` | Makes monthly reporting easier to read |
+| **Weekday** | Extracted from `transaction_date` | Identifies demand patterns by day of week |
+| **Hour** | Extracted from `transaction_time` | Identifies peak and low-traffic sales periods |
+
+---
+
 ## Excel Workflow
 
 This project was completed entirely in **Microsoft Excel**.
@@ -152,7 +164,7 @@ This project was completed entirely in **Microsoft Excel**.
 
 ---
 
-# Insights Deep Dive
+## Insights Deep Dive
 
 ---
 
@@ -328,7 +340,7 @@ Top-performing beverages should be used in promotions and bundles. Low-performin
 
 ---
 
-# Strategic Recommendations
+## Strategic Recommendations
 
 ---
 
@@ -446,8 +458,13 @@ The analysis supports business decisions in five areas:
 
 ---
 
-## Portfolio Rating
+## Next Steps
 
-**8.8 / 10**
+Future analysis could be strengthened by adding:
 
-This project demonstrates Excel-based analytics, business problem framing, dashboard design, KPI development, and stakeholder-ready recommendations. The strongest elements are the executive summary, insight structure, and practical recommendations tied to staffing, promotions, and product strategy.
+- Profit margin by product
+- Labor schedules and labor cost data
+- Customer loyalty data
+- Promotion and discount history
+- Weather and local event data
+- A full year of sales data to evaluate seasonality
